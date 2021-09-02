@@ -1,0 +1,5 @@
+[run]
+include = /home/datasci/PycharmProjects/bacilo_de_Koch/bacilo_de_Koch/Modulos/*
+
+[report]
+show_missing = True

@@ -1,0 +1,24 @@
+class([1,0,0,0],"Small-molecule metabolism ").
+class([1,1,0,0],"Degradation ").
+class([1,1,1,0],"Respiration").
+function(tb186,[1,1,1,0],'bglS',"beta-glucosidase").
+function(tb2202,[1,1,1,0],'cbhK',"carbohydrate kinase").
+function(tb727,[1,1,1,0],'fucA',"L-fuculose phosphate aldolase").
+function(tb1731,[1,1,1,0],'gabD1',"succinate-semialdehyde dehydrogenase").
+function(tb234,[1,1,1,0],'gabD2',"succinate-semialdehyde dehydrogenase").
+class([1,1,2,0],"Amino acids and amines ").
+function(tb1905,[1,1,2,0],'aao',"D-amino acid oxidase").
+function(tb2531,[1,1,2,0],'adi',"ornithine/arginine decarboxylase").
+function(tb2780,[1,1,2,0],'ald',"L-alanine dehydrogenase").
+function(tb1538,[1,1,2,0],'ansA',"L-asparaginase").
+function(tb1001,[1,1,2,0],'arcA',"arginine deiminase").
+function(tb753,[1,1,2,0],'mmsA',"methylmalmonate semialdehyde dehydrogenase").
+function(tb751,[1,1,2,0],'mmsB',"methylmalmonate semialdehyde oxidoreductase").
+function(tb1187,[1,1,2,0],'rocA',"pyrroline-5-carboxylate dehydrogenase").
+function(tb2322,[1,1,2,0],'rocD1',"ornithine aminotransferase").
+function(tb2321,[1,1,2,0],'rocD2',"ornithine aminotransferase").
+function(tb1848,[1,1,2,0],'ureA',"urease gamma subunit").
+function(tb1849,[1,1,2,0],'ureB',"urease beta subunit").
+function(tb1850,[1,1,2,0],'ureC',"urease alpha subunit").
+function(tb1853,[1,1,2,0],'ureD',"urease accessory protein").
+function(tb1851,[1,1,2,0],'ureF',"urease accessory protein").
