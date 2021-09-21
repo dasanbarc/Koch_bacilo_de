@@ -1,8 +1,14 @@
 from bacilo_de_Koch.Modulos.FuncionesGenerales import prot, dicc_orf_rel_todos_txt, hydro13
 from bacilo_de_Koch.Modulos.FuncionesGraficas import graf2_2
 
-ruta = "C:/Users/dasan/PycharmProjects/bacilo_de_Koch/data_Koch/tb_functions.pl"
-ruta_glob = "C:/Users/dasan/PycharmProjects/bacilo_de_Koch/data_Koch/orfs/*"
+# HOST (Windows):
+# ruta = "C:/Users/dasan/PycharmProjects/bacilo_de_Koch/data_Koch/tb_functions.pl"
+# ruta_glob = "C:/Users/dasan/PycharmProjects/bacilo_de_Koch/data_Koch/orfs/*"
+
+# GUEST:
+ruta = "/usr/src/app/data_Koch/tb_functions.pl"
+ruta_glob = "/usr/src/app/data_Koch/orfs/*"
+
 with open(ruta, "r") as tbf:
     lineas = tbf.readlines()  # Explicado en script previo
 
